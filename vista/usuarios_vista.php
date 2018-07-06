@@ -60,5 +60,10 @@ if(!$consulta){
 
 
 <?php include 'plantillas/footer.php'; ?>
+
+
+		<script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 </body>
 </html>
