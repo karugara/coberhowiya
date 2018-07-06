@@ -278,5 +278,21 @@
 
 <br>
 <div class="container">
-<label class="form-check-label mr-1" for="nombre">Su codigo generado es el:</label>
+<label class="form-check-label mr-1" for="nombre">Aqui aparece su codigo:</label>
+<?php
+$capturade1 = "juanito";
+$extraede1 = substr($capturade1, 0,2);
+$capturade2 = "perez";
+$extraede2 = substr($capturade2, 0,2);
+$capturade3 = 28;
+$extraede3 = substr($capturade3, 0,1);
+$capturade4 = 5994406;
+$extraede4 = substr($capturade4, 5,6);
+
+print_r("Su codigo generado es el:" . $extraede1);
+print_r($extraede2);
+print_r($extraede3);
+print_r($extraede4 . "<br>");
+
+ ?>
 </div>
